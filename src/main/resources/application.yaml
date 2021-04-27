@@ -1,0 +1,9 @@
+server:
+  port: 4000
+spring:
+  kafka:
+    consumer:
+      bootstrap-address: localhost:9092
+      auto-offset-reset: earliest
+    producer:
+      bootstrap-address: localhost:9092
